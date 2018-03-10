@@ -19,7 +19,7 @@ public class Main {
 
     }
 
-    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) { //add the value of datatype in order to shorten the code
 
         if (gameOver) {
             int finalScore = score + (levelCompleted * bonus);
