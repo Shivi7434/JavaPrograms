@@ -12,7 +12,6 @@ public class Main {
 //            System.out.println("Your score was less than 1000");
 //        } else {
 //            System.out.println("Got here");
-//
 //        }
 
         if(gameOver) {
