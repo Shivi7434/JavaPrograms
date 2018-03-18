@@ -16,5 +16,7 @@ public class Main {
 
         bobsAccount.deposit(51.0);
         bobsAccount.withdrawal(100.0);
+
+        Account ShivisAccount = new Account( 250,"12345678")
     }
 }

@@ -25,6 +25,12 @@ public class Account {
         System.out.println("Deposit of " + depositAmount + " made. New balance is " + this.balance);
     }
 
+    public Account(String customerName, String customerEmail, String phoneNumber) {
+        this.customerName = customerName;
+        this.customerEmail = customerEmail;
+        this.phoneNumber = phoneNumber;
+    }
+
     public void withdrawal (double withdrawalAmount) {
         if (balance - withdrawalAmount < 0){
             System.out.println("Only " + balance + " available. Withdrawal not processed");
