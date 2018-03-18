@@ -9,6 +9,8 @@ public class Account {
     private String phoneNumber;
 
     public Account(){
+
+        this("56789",200.0, "Default customerName");
         System.out.println("Empty constructor called"); //creating a constructor
     }
     public Account(String number, double balance, String customerName){
