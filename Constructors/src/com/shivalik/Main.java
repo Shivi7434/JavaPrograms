@@ -17,11 +17,12 @@ public class Main {
         bobsAccount.deposit(51.0);
         bobsAccount.withdrawal(100.0);
 
-        Account ShivisAccount = new Account( 250,"12345678")
+        Account shivisAccount = new Account("Shivi", "Shivi@shivi.com","12345");
+        System.out.println(shivisAccount.getNumber() + " name" + shivisAccount.getCustomerName());
 
 
 
 
-                
+
     }
 }
