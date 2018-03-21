@@ -18,7 +18,7 @@ public class Main {
         bobsAccount.withdrawal(100.0);
 
         Account shivisAccount = new Account("Shivi", "Shivi@shivi.com","12345");
-        System.out.println(shivisAccount.getNumber() + " name" + shivisAccount.getCustomerName());
+        System.out.println(shivisAccount.getNumber() + " name " + shivisAccount.getCustomerName());
 
 
 

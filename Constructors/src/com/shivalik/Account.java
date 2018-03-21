@@ -6,18 +6,20 @@ public class Account {
     private double balance;
     private String customerName;
     private String customerEmail;
-    private String phoneNumber;
+    private String customerPhoneNumber;
 
     public Account(){
 
         this("56789",200.00, "Default customerName", "Default address", "Default phone");
         System.out.println("Empty constructor called"); //creating a constructor
     }
-    public Account(String number, double balance, String customerName){
+    public Account(String number, double balance, String customerName, String customerEmail, String customerPhoneNumber){
         System.out.println("Account constructor with parameters called");
         this.number = number;
         this.balance = balance;
         this.customerName = customerName;
+        this.customerEmail = customerEmail;
+        this.customerPhoneNumber = customerPhoneNumber;
     }
 
     public Account(String customerName, String customerEmail, String customerPhoneNumber) {
@@ -73,10 +75,10 @@ public class Account {
     }
 
     public String getPhoneNumber() {
-        return phoneNumber;
+        return customerPhoneNumber;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public void setPhoneNumber(String customerPhoneNumber) {
+        this.customerPhoneNumber = customerPhoneNumber;
     }
 }
