@@ -16,7 +16,6 @@ public class Car {
         } else {
             this.model = "Unknown";
         }
-
     }
 
     public String getModel(){
